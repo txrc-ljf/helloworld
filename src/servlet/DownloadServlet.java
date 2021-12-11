@@ -14,7 +14,7 @@ import java.io.OutputStream;
 )
 public class DownloadServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         OutputStream out;
         InputStream in;
 
