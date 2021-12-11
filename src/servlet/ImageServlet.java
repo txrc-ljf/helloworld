@@ -11,7 +11,7 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 public class ImageServlet extends HttpServlet {
-    private Font font =new Font("Courier",Font.BOLD,12);
+    public Font font =new Font("Courier",Font.BOLD,12);
 
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
